@@ -1,0 +1,23 @@
+:root{
+    --theme-color: white;
+    --primary-color: blue;
+    --secundary-color: yellow;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: green ;
+    --munu-mobile-background-color: rgb(110, 68, 68);
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:  var(--theme-color);
+    color: var(--text-color);
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+
